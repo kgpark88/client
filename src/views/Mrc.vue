@@ -8,7 +8,7 @@
           <v-card class="grey lighten-5" flat >
             <v-card-title> 
               <v-icon large left color="blue darken-2">mdi-file-document-box</v-icon>
-              <span class="headline font-weight-bold dark">MRC(기계독해)</span>      
+              <span class="headline font-weight-bold dark">Question Answering 서비스</span>      
             </v-card-title>
           </v-card>
 
