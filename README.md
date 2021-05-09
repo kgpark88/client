@@ -1,15 +1,29 @@
-## QA(Question Answering Service) 서비스 프론트엔드
+# client
 
-### 1. QA 백엔드 설치 
-- https://github.com/kgpark88/server
+## Backend Installation
+```
+https://github.com/kgpark88/server
+```
 
-### 2. 소스 다운로드 
-- git https://github.com/kgpark88/client
-- cd client
+## Project setup
+```
+npm install
+```
 
-### 3. NPM 패키지 설치 
-- npm run install
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-### 4. 프론트엔드 실행
-- npm run serve
+### Compiles and minifies for production
+```
+npm run build
+```
 
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
