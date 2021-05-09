@@ -188,7 +188,7 @@ export default {
   },
   methods: {
     get_tilte() {
-      let url = process.env.VUE_APP_API_SERVER + "/mrc/get-sentence/"
+      let url = "http://localhost:8000/mrc/get-sentence/"
       axios.get(url).then((response) => {
         this.sentences = response.data.sentences
       }).catch(function (error) {
@@ -203,7 +203,7 @@ export default {
       self.question = ""
       self.answer = ""
       self.right_answer = ""
-      let url = process.env.VUE_APP_API_SERVER + "/mrc/get-passage/"
+      let url = "http://localhost:8000/mrc/get-passage/"
       let post_data = { "title": data }
       axios.post(url, post_data).then(response => {
         self.passage = response["data"]["passage"]; 
@@ -252,7 +252,7 @@ export default {
       }
       self.overlay = false
       self.process_dialog = true
-      let url = process.env.VUE_APP_API_SERVER + "/mrc/"
+      let url = "http://localhost:8000/mrc/"
       let post_data = {"question": self.question, "passage": self.passage}
       axios.post(url, post_data).then(response => {
         self.answer = response["data"]["answer"]
