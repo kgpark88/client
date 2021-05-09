@@ -1,9 +1,7 @@
 # client
 
 ## Backend Installation
-```
 https://github.com/kgpark88/server
-```
 
 ## Project setup
 ```
